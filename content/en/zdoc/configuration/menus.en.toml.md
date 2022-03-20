@@ -7,16 +7,16 @@ weight: 4
 
 ### main
 
-Used to iterate menus. You don't need to care about this.
+用于迭代菜单。 你不需要关心这个。
 
 ### identifier
 
-The identifier should be unique (within a menu).
+identifier 应该是唯一的（在菜单中）。
 
 ### name
 
-Menu name that appears in appbar.
+出现在应用栏中的菜单名称。
 
 ### weight
 
-Menu order. Less weight comes first.
+菜单顺序。 减轻 weight 是第一位的。

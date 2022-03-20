@@ -5,81 +5,92 @@ draft: false
 weight: 2
 ---
 
-`config.toml` file is a Hugo itself configuration file. All the possible params are documented on [the official Hugo site](https://gohugo.io/getting-started/configuration/#all-configuration-settings).
+`config.toml` 文件是 Hugo 本身的配置文件。 所有可能的参数都记录在 [the official Hugo site](https://gohugo.io/getting-started/configuration/#all-configuration-settings)。
 
 ### baseURL
 
-Set this param to your site URL. Zdoc theme is using this param for a search. So, if this param is not correct, the search won't work. If you bought a domain name, use it instead of a default one.
+将此参数设置为您的站点 URL。 Zdoc 主题正在使用此参数进行搜索。 因此，如果此参数不正确，则搜索将不起作用。 如果您购买了域名，请使用它而不是默认域名。
 
 ### theme
 
-Theme to use (located by default in /themes/THEMENAME/).
+要使用的主题（默认位于 /themes/THEMENAME/）。
 
-### defaultContentLanguage 
+### defaultContentLanguage
 
-Content without language indicator will default to this language.
+没有语言指示符的内容将默认为此语言。
 
-### defaultContentLanguageInSubdir 
+### defaultContentLanguageInSubdir
 
-Render the default content language in subdir, e.g. `content/en/`. The site root `/` will then redirect to `/en/`.
+在 subdir 中呈现默认的内容语言，例如 `content/en/`。 然后站点根目录`/` 将重定向到`/en/`。
 
 ### hasCJKLanguage
 
-If true, auto-detect Chinese/Japanese/Korean Languages in the content. This will make `.Summary` and `.WordCount` behave correctly for CJK languages.
+如果为真，自动检测内容中的中文/日文/韩文。 这将使 `.Summary` 和 `.WordCount` 对于 CJK 语言的行为正确。
 
-### summaryLength 
+### summaryLength
 
-The length of text in words to show in a `.Summary`.
+在 `.Summary` 中显示的文字长度。
+
+### buildFuture
+
+Include content with publishdate in the future.
 
 ### copyright
 
-Set your copyright text. You can use {year} to print current year. For example,
+设置您的版权文本。 您可以使用 {year} 打印当前年份。 例如，
+
 ```
 ©{year} zzossig, All Rights Reserved
 ```
-You can put link for [creativecommons](https://creativecommons.org/licenses/by-sa/4.0/)(or any links).
+
+您可以为 [creativecommons](https://creativecommons.org/licenses/by-sa/4.0/)（或任何链接）添加链接。
+
 ```
 ©2018 - {year} All content is licensed under <a target='_blank' rel='external noopener' href='https://example.com'>CC BY-SA</a>
 ```
 
 ### timeout
 
-Timeout for generating page contents, in milliseconds (defaults to 10 seconds). Note: this is used to bail out of recursive content generation, if your pages are slow to generate (e.g., because they require large image processing or depend on remote contents) you might need to raise this limit.
+生成页面内容的超时时间，以毫秒为单位（默认为 10 秒）。 注意：这用于避免递归内容生成，如果您的页面生成速度很慢（例如，因为它们需要大图像处理或依赖于远程内容），您可能需要提高此限制。
 
 ### enableEmoji
 
-Enable Emoji emoticons support for page content
+为页面内容启用 Emoji 表情支持
 
 ### paginate
 
-Default number of elements per page in [pagination](https://gohugo.io/templates/pagination/).
+[分页]（https://gohugo.io/templates/pagination/）中每页的默认元素数。
 
 ### rssLimit
 
-Maximum number of items in the RSS feed.
+RSS 提要中的最大项目数。
+
+### enableGitInfo
+
+Enable .GitInfo object for each page (if the Hugo site is versioned by Git). This will then update the Lastmod parameter for each page using the last git commit date for that content file.
 
 ### googleAnalytics
 
-Google Analytics tracking ID.
+谷歌分析跟踪 ID。
 
 ### disableKinds
 
-Enable disabling of all pages of the specified Kinds. Allowed values in this list: `"page"`, `"home"`, `"section"`, `"taxonomy"`, `"term"`, `"RSS"`, `"sitemap"`, `"robotsTXT"`, `"404"`.
+启用禁用指定种类的所有页面。 此列表中允许的值：`"page"`、`"home"`、`"section"`、`"taxonomy"`、`"term"`、`"RSS"`、`"sitemap"`、`" 机器人TXT"`，`"404"`。
 
 ### markup
 
-This is a markdown related configurations. See the [official documentation](https://gohugo.io/getting-started/configuration-markup).
+这是一个 markdown 相关的配置。 参见 [official documentation](https://gohugo.io/getting-started/configuration-markup).
 
 ### outputs
 
-Used this param for the custom output `SearchIndex`. If you set `home = ["SearchIndex"]`, you can see the search index in the http(s)://www.mydomain.com/index.json.
+将此参数用于自定义输出 `SearchIndex`。 如果设置 `home = ["SearchIndex"]`，则可以在 http(s)://www.mydomain.com/index.json 中看到搜索索引。
 
 ### outputFormats
 
-Used to define Custom output `SearchIndex`. It's a json file.
+用于定义自定义输出`SearchIndex`。 这是一个 json 文件。
 
 ### taxonomies
 
-Hugo includes support for user-defined groupings of content called taxonomies. Taxonomies are classifications of logical relationships between content.
+Hugo 支持用户定义的内容分组，称为分类法。 分类法是内容之间逻辑关系的分类。
 
-Zdoc theme support `tag` taxonomy only.
+> Zdoc 官网主题仅使用了 `tag` 分类。

@@ -1,12 +1,12 @@
 [en]
-  title = "Z Themes Documentation"
+  title = "安邦的博客 Documentation"
   languageName = "English"
   weight = 1
   languagedir = "ltr"
   contentdir = "content/en"
   
 [ko]
-  title = "Z Themes Documentation"
+  title = "安邦的博客 Documentation"
   languageName = "한국어"
   weight = 2
   languagedir = "ltr"

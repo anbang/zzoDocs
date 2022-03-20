@@ -1,5 +1,5 @@
 ---
-title: "Archetypes"
+title: "原型"
 date: 2020-10-21T06:39:22+09:00
 draft: false
 weight: 2
@@ -25,8 +25,8 @@ editBaseURL: https://github.com/zzossig/zzoDocs/blob/master/content/en
 ```yaml
 ---
 title: "Installation"
-date: 2020-01-30T00:38:25+09:00
 description: Installation description
+date: 2020-01-30T00:38:25+09:00
 draft: false
 weight: 1
 enableToc: true
@@ -43,8 +43,8 @@ title: "Rich Content"
 date: "2019-03-10"
 description: "A brief description of Hugo Shortcodes"
 tags:
-- shortcodes
-- privacy
+  - shortcodes
+  - privacy
 image: "images/mountain.jpg" # relative path to the static folder. The image is in the root/static/images folder.
 enableToc: true
 tocLevels: ["h2", "h3", "h4"]

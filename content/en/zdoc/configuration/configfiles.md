@@ -1,13 +1,13 @@
 ---
-title: "Config Files"
+title: "配置文件"
 date: 2020-01-30T11:16:54+09:00
 draft: false
 weight: 1
 ---
 
-## Config Folder Structure
+## 配置文件夹结构
 
-Keep in mind the underscore on the `_default` folder. You have to have all of these files, otherwise the theme doesn't work.
+请记住 `_default` 文件夹上的下划线。 您必须拥有所有这些文件，否则主题不起作用。
 
 ```
 root
@@ -22,6 +22,7 @@ root
 ## Config Files
 
 {{< expand "config.toml" >}}
+
 ```:/config/_default/config.toml
 baseURL = "http://example.org/" # The URL of your site.
 title = "Hugo Zzo Theme" # Title of your site
@@ -66,31 +67,35 @@ disableKinds = ["taxonomyTerm"]
     baseName = "index"
     isPlainText = true
     notAlternative = true
-    
+
 [taxonomies]
   tag = "tags"
 ```
+
 {{< /expand >}}
 
 {{< expand "languages.toml" >}}
+
 ```:/config/_default/languages.toml
 [en]
-  title = "Z Themes Documentation"
+  title = "安邦的博客 Documentation"
   languageName = "English"
   weight = 1
   languagedir = "ltr"
   contentdir = "content/en"
-  
+
 [ko]
-  title = "Z Themes Documentation"
+  title = "安邦的博客 Documentation"
   languageName = "한국어"
   weight = 2
   languagedir = "ltr"
   contentdir = "content/en"
 ```
+
 {{< /expand >}}
 
 {{< expand "menus.en.toml" >}}
+
 ```:/config/_default/menus.en.toml
 [[main]]
   identifier = "Zzo"
@@ -111,12 +116,14 @@ disableKinds = ["taxonomyTerm"]
   weight = 3
 ...
 ```
+
 {{< /expand >}}
 
 {{< expand "params.toml"  >}}
+
 ```:/config/_default/params.toml
 logo = true
-logoText = "Z Themes"
+logoText = "安邦的博客"
 logoType = "short" # long, short
 description = "The Zzo theme documentation site."
 editBaseURL = "https://github.com/zzossig/zzoDocs/blob/master/content"
@@ -153,3 +160,4 @@ enableComment = false
   owner = "zzossig"              # Your GitHub ID
   repo = "zzoDocs"               # The repo to store comments
 {{</ expand >}}
+```

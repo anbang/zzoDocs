@@ -1,13 +1,13 @@
 logo = true
-logoText = "Z Themes"
+logoText = "安邦的博客"
 logoType = "short" # long, short
-description = "The Zzo theme documentation site."
+description = "安邦的博客的描述"
 editBaseURL = "https://github.com/zzossig/zzoDocs/blob/master/content/en"
-themeOptions = ["light", "dark"]
+themeOptions = ["hacker","light","dark", "solarized","kimbie"]
 
 useFaviconGenerator = true # https://www.favicon-generator.org/
 
-wideViewAsDefault = true
+wideViewAsDefault = false
 
 enableWideBlogSwitch = true
 enableTocSwitch = true
@@ -35,3 +35,135 @@ enableComment = false
 [utterances]       # https://utteranc.es/
   owner = "zzossig"              # Your GitHub ID
   repo = "zzoDocs"               # The repo to store comments
+
+enableUiAnimation = true
+enableAppbarSearchIcon = true
+enableAppbarLangIcon = true
+homeHeaderType = "text"
+hideHomeHeaderWhenMobile = false
+showMobileMenuTerms = ["tags", "categories", "series"]
+enableGoToTop = true
+
+enableWhoami = true
+
+ 
+
+summaryShape = "classic"
+
+
+searchResultPosition = "main"
+
+
+
+archiveGroupByDate = "2006"
+
+
+archivePaginate = 20
+
+
+paginateWindow = 1
+
+
+
+talksPaginate = 5
+
+
+talksGroupByDate = "2006"
+
+
+
+pubPaginate = 20
+
+
+myname = "choi"
+
+
+
+email = "example@gmail.com"
+
+
+whoami = "📚Learner🤓Nerd🌐Web Developer"
+
+
+bioImageUrl = "https://..."
+
+
+useGravatar = false
+
+
+
+location = "Seoul, Korea"
+
+
+organization = "Hugo"
+
+
+link = "https://zzossig.io"
+
+
+enableBio = true
+
+
+enableSidebar = true
+
+
+enableSidebarTags = true
+
+
+enableSidebarSeries = true
+
+
+enableSidebarCategories = true
+
+
+enableHomeSidebarTitles = true
+enableListSidebarTitles = true
+enableToc = true
+
+
+hideToc = false
+
+
+tocFolding = true
+
+
+tocPosition = "outer"
+
+
+enableTocSwitch = true
+
+
+itemsPerCategory = 5
+
+
+sidebarPosition = "right"
+
+
+showFeedLinks = true
+
+
+showSocialLinks = true
+
+
+enableThemeChange = true
+
+
+googleTagManager = "" # GTM-XXXXXX
+baiduAnalytics = ""
+
+enableBusuanzi = false
+busuanziSiteUV = true
+busuanziSitePV = true
+busuanziPagePV = true
+updatePeriod = "monthly"
+
+[socialOptions]
+  email = "mailto:your@email.com"
+[[share]]
+  name = "facebook"
+[[share]]
+  name = "twitter"
+  username = ""
+
+
+

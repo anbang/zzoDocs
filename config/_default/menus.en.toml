@@ -6,12 +6,12 @@
 
 [[main]]
   identifier = "Zdoc"
-  name = "Zdoc theme"
+  name = "Zdoc类型"
   url = "zdoc"
   weight = 2
 
 [[main]]
   identifier = "Blog"
-  name = "Blog"
+  name = "博客文章"
   url = "blog"
   weight = 3

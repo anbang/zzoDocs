@@ -1,6 +1,6 @@
 ---
-title: Z Themes
-description: Hugo zzo, zdoc theme documentation home page
+title: 安邦的博客
+description: 这是首页的描述
 date: 2020-01-26T04:15:05+09:00
 draft: false
 # updatesBanner: "Banner - &nbsp; [Hugo ZDoc theme](https://github.com/zzossig/hugo-theme-zdoc) &nbsp; just arrived"
@@ -8,45 +8,38 @@ landing:
   height: 500
   image: favicon/android-icon-192x192.png
   title:
-    - Z Themes
+    - 安邦的博客
   text:
-    - This is Hugo Z Themes documentation site
+    - 这是安邦的博客，吧啦吧啦吧
   titleColor:
   textColor:
   spaceBetweenTitleText: 25
   buttons:
     - link: zzo
-      text: HUGO THEME ZZO
+      text: zzo 点这里
       color: primary
     - link: zdoc
-      text: HUGO THEME ZDOC
+      text: ZDOC 点这里
       color: default
-  # backgroundImage: 
+  # backgroundImage:
   #   src: images/landscape.jpg
+  #   height: 600
+  # backgroundImage:
+  #   src: images/header/background.jpg
   #   height: 600
 footer:
   sections:
-    - title: General
+    - title: 底部链接
       links:
-        - title: Docs
+        - title: 文档
           link: https://gohugo.io/
-        - title: Learn
+        - title: 学习
           link: https://gohugo.io/
-        - title: Showcase
+        - title: 展示柜
           link: https://gohugo.io/
-        - title: Blog
+        - title: 博客
           link: https://gohugo.io/
-    - title: resources
-      links:
-        - title: GitHub
-          link: https://gohugo.io/
-        - title: Releases
-          link: https://gohugo.io/
-        - title: Spectrum
-          link: https://gohugo.io/
-        - title: Telemetry
-          link: https://gohugo.io/
-    - title: Features
+    - title: 资源
       links:
         - title: GitHub
           link: https://gohugo.io/
@@ -56,74 +49,77 @@ footer:
           link: https://gohugo.io/
         - title: Telemetry
           link: https://gohugo.io/
-  contents: 
+    - title: 特性
+      links:
+        - title: GitHub
+          link: https://gohugo.io/
+  contents:
     align: left
     applySinglePageCss: false
-    markdown:
-      |
-      ## Zzo docs
-      Copyright © 2020. All rights reserved.
+    markdown: |
+      ## 安邦的博客
+      Copyright © 2021. All rights reserved.
 
 sections:
   - bgcolor: teal
     type: card
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce id eleifend erat. Integer eget mattis augue. Suspendisse semper laoreet tortor sed convallis. Nulla ac euismod lorem"
-    header: 
-      title: Why Zdoc
+    description: "关于我的描述信息，一顿吹牛。。。。"
+    header:
+      title: 关于我
       hlcolor: "#8bc34a"
-      color: '#fff'
+      color: "#fff"
       fontSize: 32
       width: 220
     cards:
-      - subtitle: Performance
+      - subtitle: 表现
         subtitlePosition: center
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce id eleifend erat. Integer eget mattis augue."
+        description: "描述的废话描述的废话描述的废话描述的废话描述的废话描述的废话描述的废话描述的废话描述的废话描述的废话"
         image: images/section/keyboard.png
         color: white
-        button: 
+        button:
           name: Naver
           link: https://naver.com
           size: large
           target: _blank
-          color: 'white'
-          bgcolor: '#283593'
-      - subtitle: Reliability
+          color: "white"
+          bgcolor: "#283593"
+      - subtitle: 生产率
         subtitlePosition: center
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce id eleifend erat. Integer eget mattis augue. Suspendisse semper laoreet tortor sed convallis. Nulla ac euismod lorem"
+        description: "描述的废话描述的废话描述的废话描述的废话描述的废话描述的废话描述的废话描述的废话描述的废话描述的废话"
         image: images/section/processor.png
         color: white
-        button: 
+        button:
           name: Google
           link: https://google.com
           size: large
           target: _blank
-          color: 'white'
-          bgcolor: '#283593'
-      - subtitle: Productivity
+          color: "white"
+          bgcolor: "#283593"
+      - subtitle: 生产率
         subtitlePosition: center
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce id eleifend erat. Integer eget mattis augue. Suspendisse semper laoreet tortor sed convallis. Nulla ac euismod lorem"
+        description: "描述的废话描述的废话描述的废话描述的废话描述的废话描述的废话描述的废话描述的废话描述的废话描述的废话"
         image: images/section/root-server.png
         color: white
-        button: 
+        button:
           name: Yahoo
           link: https://yahoo.com
           size: large
           target: _blank
-          color: 'white'
-          bgcolor: '#283593'
+          color: "white"
+          bgcolor: "#283593"
   - bgcolor: DarkSlateBlue
     type: normal
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce id eleifend erat. Integer eget mattis augue. Suspendisse semper laoreet tortor sed convallis. Nulla ac euismod lorem"
+    description: "描述的废话描述的废话描述的废话描述的废话描述的废话描述的废话描述的废话描述的废话描述的废话描述的废话"
     header:
-      title: Build it with Zdoc
+      title: 使用 Zdoc 构建它
       hlcolor: DarkKhaki
       color: "#fff"
       fontSize: 32
       width: 340
     body:
-      subtitle: Extensible and customizable.
+      subtitle: 可扩展和可定制。
       subtitlePosition: left
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce id eleifend erat. Integer eget mattis augue. Suspendisse semper laoreet tortor sed convallis. Nulla ac euismod lorem"
+      description: "描述的废话描述的废话描述的废话描述的废话描述的废话描述的废话描述的废话描述的废话描述的废话描述的废话"
       color: white
       image: images/section/root-server.png
       imagePosition: left

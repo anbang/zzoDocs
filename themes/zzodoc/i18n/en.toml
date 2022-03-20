@@ -1,5 +1,5 @@
 [toc-label]
-other = "What's on this Page"
+other = "这个页面上有什么?"
 
 [tooltip-written]
 other = "Written At"
@@ -20,4 +20,4 @@ other = "min read"
 other = "WRITTEN BY"
 
 [edit-this-page]
-other = "EDIT THIS PAGE"
+other = "修改本页的错误"

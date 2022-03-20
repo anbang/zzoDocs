@@ -1,36 +1,55 @@
 +++
-author = "Hugo Authors"
-title = "Emoji Support"
+author = "朱安邦"
+title = "本主题支持Emoji"
 date = "2019-03-05"
-description = "Guide to emoji usage in Hugo"
+description = "这是本篇文章的Description"
 tags = [
     "emoji",
 ]
 +++
 
-Emoji can be enabled in a Hugo project in a number of ways. 
+Emoji 表情符号可以通过多种方式在 Hugo 项目中启用。
+
 <!--more-->
-The [`emojify`](https://gohugo.io/functions/emojify/) function can be called directly in templates or [Inline Shortcodes](https://gohugo.io/templates/shortcode-templates/#inline-shortcodes). 
+
+[`emojify`](https://gohugo.io/functions/emojify/) 函数可以直接在模板或 [Inline Shortcodes](https://gohugo.io/templates/shortcode-templates/#inline-shortcodes) 中调用。
 
 To enable emoji globally, set `enableEmoji` to `true` in your site’s [configuration](https://gohugo.io/getting-started/configuration/) and then you can type emoji shorthand codes directly in content files; e.g.
 
+要全局启用表情符号，请在站点配置中将 `enableEmoji` 设置为 `true` ，然后您可以直接在 [configuration](https://gohugo.io/getting-started/configuration/) 文件中键入表情符号简写代码；例如 🙈
 
-<p><span class="nowrap"><span class="emojify">🙈</span> <code>:see_no_evil:</code></span>  <span class="nowrap"><span class="emojify">🙉</span> <code>:hear_no_evil:</code></span>  <span class="nowrap"><span class="emojify">🙊</span> <code>:speak_no_evil:</code></span></p>
+<p>
+<span class="nowrap">
+	<span class="emojify">🙈</span> 
+	<code>:see_no_evil:</code>
+</span>
+
+<span class="nowrap">
+	<span class="emojify">🙉</span> 
+	<code>:hear_no_evil:</code>
+</span>
+
+<span class="nowrap">
+	<span class="emojify">🙊</span> 
+	<code>:speak_no_evil:</code>
+</span>
+</p>
 <br>
 
-The [Emoji cheat sheet](http://www.emoji-cheat-sheet.com/) is a useful reference for emoji shorthand codes.
+[Emoji cheat sheet](http://www.emoji-cheat-sheet.com/) 是表情符号速记代码的有用参考。
 
-***
+---
 
-**N.B.** The above steps enable Unicode Standard emoji characters and sequences in Hugo, however the rendering of these glyphs depends on the browser and the platform. To style the emoji you can either use a third party emoji font or a font stack; e.g.
+**N.B.** 上述步骤在 Hugo 中启用了 Unicode 标准表情符号字符和序列，但是这些字形的呈现取决于浏览器和平台。 要设置表情符号的样式，您可以使用第三方表情符号字体或字体堆栈； 例如
 
 {{< highlight html >}}
 .emoji {
-font-family: Apple Color Emoji,Segoe UI Emoji,NotoColorEmoji,Segoe UI Symbol,Android Emoji,EmojiSymbols;
+	font-family: Apple Color Emoji,Segoe UI Emoji,NotoColorEmoji,Segoe UI Symbol,Android Emoji,EmojiSymbols;
 }
 {{< /highlight >}}
 
 {{< css.inline >}}
+
 <style>
 .emojify {
 	font-family: Apple Color Emoji,Segoe UI Emoji,NotoColorEmoji,Segoe UI Symbol,Android Emoji,EmojiSymbols;
@@ -44,4 +63,5 @@ font-family: Apple Color Emoji,Segoe UI Emoji,NotoColorEmoji,Segoe UI Symbol,And
 }
 }
 </style>
+
 {{< /css.inline >}}
